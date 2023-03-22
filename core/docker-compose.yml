@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  akakou-devcontainer:
+    ports:
+      - "1-65535:1-65535"
+    build: "."
